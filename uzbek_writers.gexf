@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+  <meta>
+    <creator>Adiblar Project</creator>
+    <description>O'zbek adiblari graph</description>
+  </meta>
+  <graph mode="static" defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="0" title="birth_year" type="integer"/>
+      <attribute id="1" title="death_year" type="integer"/>
+      <attribute id="2" title="genre" type="string"/>
+      <attribute id="3" title="era" type="string"/>
+    </attributes>
+    <attributes class="edge">
+      <attribute id="0" title="relation" type="string"/>
+      <attribute id="1" title="weight" type="float"/>
+    </attributes>
+    <nodes>
+      <node id="1" label="Abdulla Qodiriy">
+        <attvalues>
+          <attvalue for="0" value="1894"/>
+          <attvalue for="1" value="1938"/>
+          <attvalue for="2" value="roman"/>
+          <attvalue for="3" value="sovet davri"/>
+        </attvalues>
+      </node>
+      <node id="2" label="Abdulhamid Sulaymon o'g'li Cho'lpon">
+        <attvalues>
+          <attvalue for="0" value="1897"/>
+          <attvalue for="1" value="1938"/>
+          <attvalue for="2" value="she'riyat"/>
+          <attvalue for="3" value="sovet davri"/>
+        </attvalues>
+      </node>
+      <node id="3" label="Abdulla Oripov">
+        <attvalues>
+          <attvalue for="0" value="1941"/>
+          <attvalue for="1" value="2016"/>
+          <attvalue for="2" value="she'riyat"/>
+          <attvalue for="3" value="mustaqillik davri"/>
+        </attvalues>
+      </node>
+      <node id="4" label="Erkin Vohidov">
+        <attvalues>
+          <attvalue for="0" value="1936"/>
+          <attvalue for="1" value="2016"/>
+          <attvalue for="2" value="she'riyat"/>
+          <attvalue for="3" value="mustaqillik davri"/>
+        </attvalues>
+      </node>
+      <node id="5" label="Said Ahmad">
+        <attvalues>
+          <attvalue for="0" value="1920"/>
+          <attvalue for="1" value="2010"/>
+          <attvalue for="2" value="roman"/>
+          <attvalue for="3" value="sovet davri"/>
+        </attvalues>
+      </node>
+      <node id="6" label="O'tkir Hoshimov">
+        <attvalues>
+          <attvalue for="0" value="1941"/>
+          <attvalue for="1" value="2013"/>
+          <attvalue for="2" value="hikoya"/>
+          <attvalue for="3" value="mustaqillik davri"/>
+        </attvalues>
+      </node>
+      <node id="7" label="Zulfiya">
+        <attvalues>
+          <attvalue for="0" value="1915"/>
+          <attvalue for="1" value="1996"/>
+          <attvalue for="2" value="she'riyat"/>
+          <attvalue for="3" value="sovet davri"/>
+        </attvalues>
+      </node>
+      <node id="8" label="Mirtemir">
+        <attvalues>
+          <attvalue for="0" value="1910"/>
+          <attvalue for="1" value="1978"/>
+          <attvalue for="2" value="she'riyat"/>
+          <attvalue for="3" value="sovet davri"/>
+        </attvalues>
+      </node>
+      <node id="9" label="G'afur G'ulom">
+        <attvalues>
+          <attvalue for="0" value="1903"/>
+          <attvalue for="1" value="1966"/>
+          <attvalue for="2" value="she'riyat"/>
+          <attvalue for="3" value="sovet davri"/>
+        </attvalues>
+      </node>
+      <node id="10" label="Hamza Hakimzoda Niyoziy">
+        <attvalues>
+          <attvalue for="0" value="1889"/>
+          <attvalue for="1" value="1929"/>
+          <attvalue for="2" value="drama"/>
+          <attvalue for="3" value="jadidchilik davri"/>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1" target="2" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="zamondosh"/>
+          <attvalue for="1" value="0.9"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="1" target="10" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="adabiy aloqa"/>
+          <attvalue for="1" value="0.7"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="2" target="10" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="zamondosh"/>
+          <attvalue for="1" value="0.8"/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="7" target="8" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="zamondosh"/>
+          <attvalue for="1" value="0.85"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="7" target="9" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="zamondosh"/>
+          <attvalue for="1" value="0.8"/>
+        </attvalues>
+      </edge>
+      <edge id="5" source="8" target="9" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="zamondosh"/>
+          <attvalue for="1" value="0.9"/>
+        </attvalues>
+      </edge>
+      <edge id="6" source="5" target="7" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="zamondosh"/>
+          <attvalue for="1" value="0.75"/>
+        </attvalues>
+      </edge>
+      <edge id="7" source="5" target="8" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="zamondosh"/>
+          <attvalue for="1" value="0.7"/>
+        </attvalues>
+      </edge>
+      <edge id="8" source="3" target="4" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="zamondosh"/>
+          <attvalue for="1" value="0.95"/>
+        </attvalues>
+      </edge>
+      <edge id="9" source="3" target="6" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="zamondosh"/>
+          <attvalue for="1" value="0.85"/>
+        </attvalues>
+      </edge>
+      <edge id="10" source="4" target="6" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="zamondosh"/>
+          <attvalue for="1" value="0.8"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="1" target="9" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="maktab asoschilari"/>
+          <attvalue for="1" value="0.8"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="9" target="10" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="adabiy ta'sir"/>
+          <attvalue for="1" value="0.75"/>
+        </attvalues>
+      </edge>
+      <edge id="13" source="2" target="9" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="she'riyat an'anasi"/>
+          <attvalue for="1" value="0.7"/>
+        </attvalues>
+      </edge>
+      <edge id="14" source="5" target="6" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="nasrchilar"/>
+          <attvalue for="1" value="0.75"/>
+        </attvalues>
+      </edge>
+      <edge id="15" source="7" target="4" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="she'riyat an'anasi"/>
+          <attvalue for="1" value="0.65"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="8" target="3" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="she'riyat an'anasi"/>
+          <attvalue for="1" value="0.6"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="1" target="5" type="undirected">
+        <attvalues>
+          <attvalue for="0" value="roman yozuvchilari"/>
+          <attvalue for="1" value="0.7"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
